@@ -67,7 +67,7 @@ dependencies {
   compile('com.squareup.okhttp3:mockwebserver:3.7.0') {
     exclude group: "junit"
   }
-  compile('org.yaml:snakeyaml:1.14') {
+  compile('org.yaml:snakeyaml:1.19-SNAPSHOT:android') {
     transitive false
   }
 
